@@ -1,0 +1,21 @@
+.print-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  border-top: 1px dashed black;
+  padding-top: 12px;
+}
+
+.print-button-container button {
+  background: #7fffd4;
+  border: 3px solid black;
+  font-size: 1rem;
+  font-family: "Poppins", Arial, sans-serif;
+  padding: 12px;
+}
+
+@media print {
+  .print-button-container {
+    display: none;
+  }
+}
